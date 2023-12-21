@@ -235,7 +235,7 @@ void *myrealloc(void *ptr, size_t size) {
 /*
  * Enable the code below to enable system allocator support for your allocator.
  * Doing so will make debugging much harder (e.g., using printf may result in
- * infinite loops).
+ * infinite loops). Below if statement is taken from VU University.
  */
 #if 0
 void *malloc(size_t size) { return mymalloc(size); }
